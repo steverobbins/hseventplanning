@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dancing Script Regular'), local('DancingScript-Regular'), url(https://web.archive.org/web/20180729122053im_/http://fonts.gstatic.com/s/dancingscript/v9/If2RXTr6YS-zF4S-kcSWSVi_szLgiuQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Dancing Script Bold'), local('DancingScript-Bold'), url(https://web.archive.org/web/20180729122053im_/http://fonts.gstatic.com/s/dancingscript/v9/If2SXTr6YS-zF4S-kcSWSVi_szpbr_QqqiY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://web.archive.org/web/20180729122053im_/http://fonts.gstatic.com/s/lato/v14/S6u_w4BMUTPHjxsI9w2_Gwfo.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://web.archive.org/web/20180729122053im_/http://fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHjxsAXC-v.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://web.archive.org/web/20180729122053im_/http://fonts.gstatic.com/s/lato/v14/S6u_w4BMUTPHjxsI5wq_Gwfo.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Lato Black Italic'), local('Lato-BlackItalic'), url(https://web.archive.org/web/20180729122053im_/http://fonts.gstatic.com/s/lato/v14/S6u_w4BMUTPHjxsI3wi_Gwfo.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://web.archive.org/web/20180729122053im_/http://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://web.archive.org/web/20180729122053im_/http://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://web.archive.org/web/20180729122053im_/http://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Lato Black'), local('Lato-Black'), url(https://web.archive.org/web/20180729122053im_/http://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh50XSwiPHA.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 12:20:53 Jul 29, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:56:47 Nov 18, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 80.987 (3)
+  esindex: 0.01
+  captures_list: 110.626
+  CDXLines.iter: 24.325 (3)
+  PetaboxLoader3.datanode: 89.918 (4)
+  exclusion.robots: 0.161
+  exclusion.robots.policy: 0.149
+  RedisCDXSource: 1.061
+  PetaboxLoader3.resolve: 44.311
+  load_resource: 80.461
+*/

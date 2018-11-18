@@ -1,0 +1,31 @@
+			@font-face {
+				font-family: 'parfumerie';
+				font-style: normal;
+				src: url('//web.archive.org/web/20180728053155im_/http://www.highsocietyeventplanning.com/wp-content/uploads/useanyfont/150408105832parfumerie.eot');
+				src: local('parfumerie'), url('//web.archive.org/web/20180728053155im_/http://www.highsocietyeventplanning.com/wp-content/uploads/useanyfont/150408105832parfumerie.eot') format('embedded-opentype'), url('//web.archive.org/web/20180728053155im_/http://www.highsocietyeventplanning.com/wp-content/uploads/useanyfont/150408105832parfumerie.woff') format('woff');
+			}
+            
+            .parfumerie{font-family: 'parfumerie' !important;}
+            
+		
+/*
+     FILE ARCHIVED ON 05:31:55 Jul 28, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:56:44 Nov 18, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 79.505 (3)
+  esindex: 0.006
+  captures_list: 103.147
+  CDXLines.iter: 18.813 (3)
+  PetaboxLoader3.datanode: 121.449 (5)
+  exclusion.robots: 0.202
+  exclusion.robots.policy: 0.185
+  RedisCDXSource: 1.69
+  PetaboxLoader3.resolve: 84.127 (3)
+  load_resource: 199.367
+*/

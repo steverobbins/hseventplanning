@@ -1,0 +1,338 @@
+/*
+Theme Name: Flatsome Child Theme
+Theme URI: http://flatsome.uxthemes.com/
+Description: This is a child theme for Flatsome
+Author: UX Themes
+Author URI: http: //www.uxthemes.com/
+Template: flatsome
+Version: 2.0
+*/
+
+@import url("foundation.css");
+
+/*************** ADD YOUR CUSTOM CSS IN THIS AREA ***************/
+
+div.wpcf7-mail-sent-ok {
+  border: 0px solid #398f14;
+}
+div.wpcf7-validation-errors {
+  border: 0px solid #f7e700;
+}
+div.pp_overlay {
+  background: #FFE2E3 !important;
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 9500;
+}
+.-skin-defaultplus .-items .-item .itembox {
+  width: 90%;
+  border: 0px solid #FFF !important;
+  box-shadow: 3px 3px 35px #888 !important;
+  background: #FFF;
+  position: relative;
+  margin: 0 auto;
+}
+.pinkpop {
+  font-family: 'parfumerie';
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(229, 146, 161);
+  padding-left: 5px;
+  padding-right: 3px;
+  letter-spacing: 1px;
+}
+@media only screen and (min-width: 280px) and (max-width: 767px) {
+
+/* prettyPhoto styling for small screens */
+.pp_pic_holder.pp_default { width: 100%!important; left: 0!important; overflow: hidden; }
+div.pp_default .pp_content_container .pp_left { padding-left: 0!important; }
+div.pp_default .pp_content_container .pp_right { padding-right: 0!important; }
+.pp_content { width: 100%!important; height: auto!important; }
+.pp_fade { width: 100%!important; height: 100%!important; }
+a.pp_expand, a.pp_contract, .pp_hoverContainer, .pp_gallery, .pp_top, .pp_bottom { display: none!important; }
+#pp_full_res img { width: 100%!important; height: auto!important; }
+.pp_details { width: 100%!important; padding-left: 3%; padding-right: 4%; padding-top: 10px; padding-bottom: 10px; background-color: #fff; margin-top: -2px!important; }
+a.pp_close { right: 10px!important; top: 10px!important; }
+
+}
+#masthead .right-links > ul {
+  float: right;
+  padding-top: 98px;
+}
+ul.header-nav li {
+  float: left;
+  margin-left: 27px;
+  list-style: none;
+}
+.absolute-footer.dark {
+  background: #000000 !important;
+  color: white !important;
+}
+.-skin-defaultplus .-items .-item .title {
+  color: #000000;
+  font-size: 80%;
+  font-family: lato;
+  font-weight: 400;
+  padding-top: 8px;
+}
+.ux-box h4 span {
+  font-size: 76%;
+  color: #333333;
+}
+#item-228 .title {
+  width: 23%;
+  display: none;
+}
+#item-229 .title {
+  width: 23%;
+  display: none;
+}
+#item-234 .title {
+  width: 23%;
+  display: none;
+}
+#item-242 .title {
+  width: 23%;
+  display: none;
+}
+.page-wrapper {
+  padding: 0px 0 0px;
+  margin-top:-25px !important;
+}
+.entry-header {
+display:none;
+}
+
+.article.hentry {
+  margin-bottom:0px !important;
+}
+.heading {
+  font-family: parfumerie !important;
+  font-variant: normal !important;
+  font-weight: 500;
+  line-height: 100px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 500% !important;
+  position: relative;
+  top: 50px;
+  margin-bottom: 50px;
+}
+
+.heading-small {
+  font-family: parfumerie !important;
+  font-variant: normal !important;
+  font-weight: 500;
+  line-height: 36px;
+  text-decoration: none;
+  font-size:32px !important;
+  color:pink;
+
+}
+
+.teamname {
+  font-family: parfumerie !important;
+  font-variant: normal !important;
+  font-weight: 400;
+  line-height: 36px;
+  text-decoration: none;
+  font-size: 375% !important;
+  color: #000000;
+  padding-top: 3%;
+}
+.blackrow {
+background:#000000;
+}
+
+.footer-1 .row{
+text-align:center !important;
+}
+
+
+
+.pinkrow{
+background:#FFE2E3;
+}
+
+
+.wpcf7-form input.wpcf7-text, .wpcf7-form input.wpcf7-number, .wpcf7-form input.wpcf7-date, .wpcf7-form input.wpcf7-quiz, .wpcf7-form .wpcf7-textarea {
+	width: 99%;
+	border: 1px solid;
+	border-color: inherit;
+	background: none;
+	box-shadow: none;
+	color: inherit;
+	height: 23px;
+ letter-spacing: .1rem;
+	font-size: 12px;
+}
+
+.contactcol12 {
+	float: left;
+	width:100%;
+	
+}
+.contactcol1 {
+	float: left;
+	width: 50%;
+	padding-right: 2%;
+}
+.contactcol2 {
+	float: left;
+	width: 50%;
+	padding-left: 3%;
+}
+.contactcol1 p {
+	font-size: 70%;
+         color: #000;
+}
+.contactcol2 p {
+	font-size: 70%;
+         color: #000;
+}
+.wpcf7-form .wpcf7-submit {
+  font-family: 'parfumerie', helvetica, arial;
+  font-size: 450%;
+  text-transform: capitalize;
+  font-weight: 500;
+  background: none;
+  margin-top: 20px;
+  color: inherit;
+  border-color: inherit;
+  padding: 0.3em .4em 0.0em .2em;
+  letter-spacing: 3px;
+  background: #FFE2E3 !important;
+  color: #000;
+  border: 0px solid #000 !important;
+  border-radius: 100px;
+  float: left;
+  position: relative;
+  right: 16%;
+}
+p {
+  font-family: Lato,helvetica,arial,sans-serif!important;
+  color: black;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 1.25em;
+  text-rendering: optimizeLegibility;
+}
+#content > .ux_banner, #content > .ux_block > .ux_banner {
+  margin-bottom: 0px !important;
+}
+
+.social-icons .icon, .yith-wcwl-share li a {
+  color: #000;
+  border: 1px solid #FFE2E3;
+background:#FFE2E3;
+}
+.social-icons .icon:hover, .yith-wcwl-share li a:hover {
+  background: #FFE2E3 !important;
+border:0px;
+color:black;
+}
+span.icon-facebook {
+  color: black;
+}
+span.icon-instagram {
+  color: black;
+}
+span.icon-pinterest {
+  color: black;
+}
+span.icon-twitter {
+  color: black;
+}
+.social-icons {
+  line-height: 100%;
+  text-align: center;
+}
+
+.ux-box .inner-wrap {
+  background: #ffffff;
+  background: rgba(255, 255, 255, 0.9);
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow:none !important;
+}
+
+.ux-box-image {
+  margin-left: 30px;
+  margin-right: 30px;
+  -webkit-border-radius:0px;
+  border-radius:0px;
+}
+.ux-box.ux-text-circle .ux-box-image {
+  margin-left: 30px;
+  margin-right: 30px;
+  -webkit-border-radius: 999px;
+  border-radius: 0px;
+}
+.tx-div.small {
+  width: 30px;
+  display: none;
+}
+
+.absolute-footer .left {
+  font-size: 74%;
+}
+
+.ux-section-content > .row.container:last-of-type, .ux-section-content > .row.column-slider:last-of-type > .iosSlider {
+  margin-bottom: -169px !important;
+  padding: 9%;
+  position: relative;
+  bottom: 100px;
+  padding-top: 101px;
+}
+
+.rotatingtweets {
+width:100% !important;
+text-align:center;
+}
+#content .rotatingtweets, #content .norotatingtweets {
+  border-top: 0px solid #DDD;
+  border-bottom: 0px solid #DDD;
+font-size:20px;
+position:relative;
+left:5%;
+}
+#map_container {
+  position: relative;
+  margin-bottom:0px;
+}
+.rtw_main,.rtw_main a,.rtw_meta,.rtw_meta a {
+color:#FFE2E3!important;
+text-shadow:2px 2px 3px black;
+font-family:lato;
+font-size:18px;
+font-weight:400;
+}
+a.nav-top-link:hover{
+color:pink !important;
+}
+
+/*
+     FILE ARCHIVED ON 06:17:12 Jul 28, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:56:46 Nov 18, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 62.493 (3)
+  esindex: 0.007
+  captures_list: 79.221
+  CDXLines.iter: 12.186 (3)
+  PetaboxLoader3.datanode: 92.779 (5)
+  exclusion.robots: 0.176
+  exclusion.robots.policy: 0.165
+  RedisCDXSource: 1.706
+  PetaboxLoader3.resolve: 75.349 (2)
+  load_resource: 134.379
+*/

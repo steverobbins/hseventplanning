@@ -1,0 +1,68 @@
+(function($) {
+
+    if (typeof NimblePrettyPhoto == 'undefined')
+        NimblePrettyPhoto = '{}';
+    if (typeof NimblePrettyPhoto == "string")
+        eval("NimblePrettyPhoto=" + NimblePrettyPhoto);
+
+		$('body').append('<div id="pp_download_html"><a href="'+ NimblePrettyPhoto.wp_url +'/inc/download-image.php" id="pp_download_image" alt="Download"><img src="'+ NimblePrettyPhoto.wp_url +'/inc/img/pp_download.png" /></a></div>');
+
+
+    NimblePrettyPhoto.social_tools = false;
+
+    NimblePrettyPhoto.changepicturecallback = function() {
+		
+		 var _img = $pp_pic_holder.find("#pp_full_res img").attr("src");
+            if(NimblePrettyPhoto.download_icon && _img) {
+                var _stage = $pp_pic_holder.find(".pp_fade");
+                _stage.find("#pp_download_image").remove();
+                _stage.append($("#pp_download_html").html());
+                _link = _stage.find("#pp_download_image");
+                _link.attr('href', _link.attr('href') + '?img=' +_img);
+            }
+
+        if (typeof NimblePrettyPhoto.AddThis !== 'undefined' && typeof addthis !== 'undefined' ) {
+
+            var _size = 'default';
+            if (typeof NimblePrettyPhoto.AddThis.size !== 'undefined' && NimblePrettyPhoto.AddThis.size) {
+                _size = NimblePrettyPhoto.AddThis.size + "x" + NimblePrettyPhoto.AddThis.size;
+            }
+
+            $pp_pic_holder.find("#nimble_portfolio_social").remove();
+            $pp_pic_holder.find('.pp_fade').append('<div id="nimble_portfolio_social" class="addthis_toolbox addthis_' + _size + '_style"></div>');
+
+            for (var i in NimblePrettyPhoto.AddThis.services) {
+                $('#nimble_portfolio_social').append('<a class="addthis_button_' + NimblePrettyPhoto.AddThis.services[i] + '"></a>')
+            }
+
+            addthis.toolbox("#nimble_portfolio_social", {}, {url: pp_images[set_position], title: pp_titles[set_position] + " — " + pp_descriptions[set_position]});
+        }
+    };
+
+    $(document).on('nimble_portfolio_lightbox', function(event, obj) {
+        obj.items.prettyPhoto(NimblePrettyPhoto);
+    });
+
+})(jQuery);
+
+/*
+     FILE ARCHIVED ON 06:12:12 Jul 28, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:02:34 Nov 18, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 59.565 (3)
+  esindex: 0.008
+  captures_list: 88.66
+  CDXLines.iter: 16.209 (3)
+  PetaboxLoader3.datanode: 109.735 (5)
+  exclusion.robots: 0.197
+  exclusion.robots.policy: 0.183
+  RedisCDXSource: 9.28
+  PetaboxLoader3.resolve: 129.133 (2)
+  load_resource: 217.825
+*/
